@@ -1,0 +1,16 @@
+experiments/StaticBlockAnroidTest/Initial/AndroidComponents.java:10: error: [assignment] incompatible types in assignment.
+            : null;
+              ^
+  found   : null (NullType)
+  required: @Initialized @NonNull AndroidComponents
+experiments/StaticBlockAnroidTest/Initial/AndroidDependenciesDetector.java:14: error: [argument] incompatible argument for parameter obj of Method.invoke.
+            Object mainLooper = getMainLooper.invoke(null);
+                                                     ^
+  found   : null (NullType)
+  required: @Initialized @NonNull Object
+experiments/StaticBlockAnroidTest/Initial/AndroidDependenciesDetector.java:45: error: [return] incompatible types in return.
+            return null;
+                   ^
+  type of expression: null (NullType)
+  method return type: @Initialized @NonNull AndroidComponents
+3 errors

@@ -1,0 +1,6 @@
+experiments/StaticBlockAnroidTest/Later/AndroidComponents.java:10: error: [assignment] incompatible types in assignment.
+            : null;
+              ^
+  found   : null (NullType)
+  required: @Initialized @NonNull AndroidComponents
+1 error
